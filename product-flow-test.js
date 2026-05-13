@@ -10,7 +10,7 @@ export const options = {
 };
 
 export default function (){
-    // Homepage
+    // Homepage New
     let homeRes = http.get('https://demoblaze.com');
 
     check(homeRes,{
@@ -19,7 +19,7 @@ export default function (){
 
     sleep(2)
 
-    // Product Detail
+    // Product Detail New
     let productRes = http.get('https://www.demoblaze.com/prod.html?idp_=1');
 
     check(productRes,{
