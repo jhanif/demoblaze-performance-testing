@@ -13,6 +13,7 @@ export const options = {
     }
 };
 
+//Grouping and Tags
 export default function () {
     group('Homepage Flow', function (){
         let homeRes = http.get('https://demoblaze.com', {
