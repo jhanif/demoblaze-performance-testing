@@ -1,5 +1,6 @@
 import { group, check, sleep } from "k6";
 import http from 'k6/http';
+// HTML Report Benc-uk
 import { htmlReport } from 'https://raw.githubusercontent.com/benc-uk/k6-reporter/latest/dist/bundle.js'
 
 export const options = {
